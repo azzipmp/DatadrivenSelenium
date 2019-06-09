@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Testing the Register link test case sucessfully passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40778" started-at="2019-06-08T22:34:42Z" finished-at="2019-06-08T22:35:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40778" started-at="2019-06-08T22:34:42Z" finished-at="2019-06-08T22:35:23Z">
+      <class name="DataDriven.MercuryDataDriven">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:DataDriven.MercuryDataDriven@45c8e616]" name="openApplication" is-config="true" duration-ms="11096" started-at="2019-06-08T18:34:42Z" finished-at="2019-06-08T18:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="SecondTestverifyRegisterLink()[pri:0, instance:DataDriven.MercuryDataDriven@45c8e616]" name="SecondTestverifyRegisterLink" duration-ms="5796" started-at="2019-06-08T18:34:54Z" finished-at="2019-06-08T18:34:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Testing the Register link test case sucessfully passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SecondTestverifyRegisterLink -->
+        <test-method status="PASS" signature="SecondTestuserRegistration()[pri:1, instance:DataDriven.MercuryDataDriven@45c8e616]" name="SecondTestuserRegistration" duration-ms="22802" started-at="2019-06-08T18:34:59Z" finished-at="2019-06-08T18:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTestuserRegistration -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:DataDriven.MercuryDataDriven@45c8e616]" name="closeApplication" is-config="true" duration-ms="1050" started-at="2019-06-08T18:35:22Z" finished-at="2019-06-08T18:35:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- DataDriven.MercuryDataDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
